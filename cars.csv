@@ -1,0 +1,106 @@
+make,model,engine,trim,mileage,year,transmission,fuel,price,url
+Vauxhall,Corsa,1.4i,Energy (90 ps),9158,2019,Manual,Petrol,10489,www.cazoo.co.uk/car-details/92e3c98e-bb61-58ef-8631-4a8624758739/
+Vauxhall,Corsa,1.2,Elite (75 ps),43640,2021,Manual,Petrol,10940,www.cazoo.co.uk/car-details/50d86931-24fa-5886-bc00-356464b76a39/
+Vauxhall,Corsa,1.2,Turbo Elite Nav Premium (100 ps),40678,2020,Manual,Petrol,11618,www.cazoo.co.uk/car-details/1892306e-c0c6-5d49-b5f8-f91e6328a200/
+Vauxhall,Corsa,1.2,Elite Edition (75 ps),15198,2021,Manual,Petrol,13333,www.cazoo.co.uk/car-details/c15a23cd-0592-52a1-8f8d-41b6c5166a16/
+Vauxhall,Corsa,1.2,Elite Edition (75 ps),13707,2021,Manual,Petrol,13371,www.cazoo.co.uk/car-details/8fc070bd-0fa5-5a8c-8e8f-2d838e8f9b32/
+Vauxhall,Corsa,1.2,Elite Edition (75 ps),13404,2021,Manual,Petrol,13391,www.cazoo.co.uk/car-details/46feda93-7d14-552d-a85b-9b0bc5ae72dc/
+Vauxhall,Corsa,1.2,Elite Edition (75 ps),12407,2021,Manual,Petrol,13456,www.cazoo.co.uk/car-details/91da0b36-cf4a-5443-b3bb-99cb1b1dcb26/
+Vauxhall,Corsa,1.2,Elite Edition (75 ps),9131,2021,Manual,Petrol,13604,www.cazoo.co.uk/car-details/0ef50292-acbf-5052-8713-0a26d5c74c0a/
+Vauxhall,Corsa,1.2,Turbo Elite Nav (100 ps),28129,2021,Automatic,Petrol,13650,www.cazoo.co.uk/car-details/1d16593e-5055-53f8-8022-2c45e8bb1df4/
+Vauxhall,Corsa,1.2,Turbo SRi Premium (130 ps),13382,2021,Automatic,Petrol,14572,www.cazoo.co.uk/car-details/182fdfa0-919c-5eba-91b2-a13ec440514a/
+Volkswagen,Golf,1.4,TSI BlueMotion Tech SE (125 ps),73174,2017,Manual,Petrol,10122,www.cazoo.co.uk/car-details/f213b301-e1d0-5044-a86d-41f308b39dfe/
+Volkswagen,Golf,1.4,TSI BlueMotion Tech Match Edition DSG (125 ps),75559,2017,Automatic,Petrol,10352,www.cazoo.co.uk/car-details/49ffd076-ee60-5058-b901-66d1c3386b8b/
+Volkswagen,Golf,2.0,TDI BlueMotion Tech Match DSG Euro 5 (150 ps),35606,2014,Automatic,Diesel,10595,www.cazoo.co.uk/car-details/8e3d2a87-0434-5049-8579-6635c118dc4d/
+Volkswagen,Golf,2.0,TDI BlueMotion Tech GT Edition (150 ps),74414,2016,Manual,Diesel,10854,www.cazoo.co.uk/car-details/84724d38-28ca-5363-a24f-7ffd0f57fd1c/
+Volkswagen,Golf,2.0,TDI BlueMotion Tech GT Edition (150 ps),67407,2016,Manual,Diesel,11098,www.cazoo.co.uk/car-details/59dec5cd-30b6-5c7e-9082-2b636075a3ea/
+Volkswagen,Golf,1.6,TDI Match Edition (115 ps),84067,2020,Manual,Diesel,11271,www.cazoo.co.uk/car-details/b53bbdcb-7e6b-5403-ac1f-c2ac0a014ee6/
+Volkswagen,Golf,1.5,TSI EVO R-Line Edition (150 ps),103329,2019,Manual,Petrol,11403,www.cazoo.co.uk/car-details/b18fd3fe-81fa-5e80-9cfa-a56ac536d917/
+Volkswagen,Golf,1.4,TSI BlueMotion Tech Match Edition (125 ps),37565,2016,Manual,Petrol,11503,www.cazoo.co.uk/car-details/290bf315-790f-5552-80e3-17173fac2640/
+Volkswagen,Golf,1.6,TDI Match (115 ps),32854,2019,Manual,Diesel,13967,www.cazoo.co.uk/car-details/bb6c98a0-db99-5ee6-9d0a-e5ef0a4699f8/
+Volkswagen,Golf,1.5,TSI Life (150 ps),66559,2022,Manual,Petrol,14367,www.cazoo.co.uk/car-details/eac6697b-2440-5b83-9fc9-aafe766d3281/
+Volkswagen,Golf,1.5,TSI EVO R-Line (150 ps),44801,2018,Manual,Petrol,14823,www.cazoo.co.uk/car-details/9be59a78-163f-5d42-8260-e251b6750149/
+Volkswagen,Golf,1.5,TSI EVO Match Edition (150 ps),35484,2019,Manual,Petrol,15217,www.cazoo.co.uk/car-details/a157e54e-6488-51ad-bf62-1ffae7185eb3/
+Volkswagen,Golf,2.0,TDI GTD (184 ps),60702,2018,Manual,Diesel,15539,www.cazoo.co.uk/car-details/fd867e66-ff78-5db3-b046-d9e56da509dd/
+Volkswagen,Golf,1.5,TSI EVO R-Line DSG (150 ps),47943,2018,Automatic,Petrol,15594,www.cazoo.co.uk/car-details/72a3861e-689e-50d7-bcf5-6526a041c66e/
+Volkswagen,Golf,2.0,TDI Match Edition DSG (150 ps),32920,2020,Automatic,Diesel,16122,www.cazoo.co.uk/car-details/f9daf81e-606c-5001-9bf0-2dfb75a9e829/
+Volkswagen,Golf,1.5,TSI EVO Match Edition (130 ps),28894,2020,Manual,Petrol,16283,www.cazoo.co.uk/car-details/236a264e-67f1-5353-b1ce-86b285a6b7b3/
+Volkswagen,Golf,1.5,TSI Life (150 ps),21319,2021,Manual,Petrol,16989,www.cazoo.co.uk/car-details/1fa7b37e-8ef7-5753-9502-49dae3088633/
+Volkswagen,Golf,2.0,TDI GTD DSG (184 ps),59354,2018,Automatic,Diesel,17175,www.cazoo.co.uk/car-details/e0a47afb-38a3-56cf-bf5f-84c6c19cd686/
+Volkswagen,Golf,2.0,TDI GTD DSG (184 ps),59021,2018,Automatic,Diesel,17367,www.cazoo.co.uk/car-details/0964b60d-a6d8-56ca-a318-95a036e480e5/
+Volkswagen,Golf,2.0,TDI Life (115 ps),34081,2022,Manual,Diesel,17504,www.cazoo.co.uk/car-details/d8af1488-8e3f-5a70-af92-46b475c1475d/
+Volkswagen,Golf,1.5,TSI R-Line (150 ps),25250,2021,Manual,Petrol,18868,www.cazoo.co.uk/car-details/768a6ca3-371e-5157-9e53-b2a75494f4a9/
+Volkswagen,Golf,2.0,TSI R DSG 4Motion (300 ps),73586,2019,Automatic,Petrol,19331,www.cazoo.co.uk/car-details/3a59324e-34c7-502d-a82c-79826426cc5d/
+Volkswagen,Golf,1.5,TSI R-Line (150 ps),29118,2021,Manual,Petrol,19447,www.cazoo.co.uk/car-details/ba983f2b-7461-52df-897a-59fdc4ab346b/
+Volkswagen,Golf,1.5,eTSI MHEV Life DSG (150 ps),10501,2020,Automatic,Hybrid,19523,www.cazoo.co.uk/car-details/cc0712b7-42b5-50ed-afe5-e601b47d8023/
+Volkswagen,Golf,2.0,TSI GPF GTI Performance DSG (245 ps),28386,2019,Automatic,Petrol,20836,www.cazoo.co.uk/car-details/988dfbcc-0384-5aa8-9565-8c9048cea3be/
+Volkswagen,Golf,2.0,TSI R DSG 4Motion (300 ps),40504,2019,Automatic,Petrol,21379,www.cazoo.co.uk/car-details/077ddb98-3265-5f1e-afda-31a479dbba71/
+Volkswagen,Golf,1.5,TSI R-Line (130 ps),16533,2022,Manual,Petrol,21765,www.cazoo.co.uk/car-details/7940edbb-3fd6-5296-beef-6222b8e5aa5a/
+Volkswagen,Golf,1.4,TSI 13kWh GTE Plug-in DSG (245 ps),36535,2021,Automatic,Hybrid,21776,www.cazoo.co.uk/car-details/3d2b9dd9-10c1-5791-be3e-9e9159673885/
+Volkswagen,Golf,2.0,TSI GPF GTI Performance DSG (245 ps),27907,2020,Automatic,Petrol,21876,www.cazoo.co.uk/car-details/ff6e16a3-097f-5606-a9e0-3450c4f6793a/
+Volkswagen,Golf,2.0,TSI GTI DSG (245 ps),61119,2021,Automatic,Petrol,23072,www.cazoo.co.uk/car-details/5bb3b6ef-862b-5675-9d81-dea5715ebd34/
+Volkswagen,Golf,2.0,TSI R DSG 4Motion (300 ps),43918,2020,Automatic,Petrol,23408,www.cazoo.co.uk/car-details/516060b5-45ab-554f-a60e-1b9e79427ec9/
+Volkswagen,Golf,2.0,TSI R DSG 4Motion (300 ps),19963,2019,Automatic,Petrol,23975,www.cazoo.co.uk/car-details/089247fb-687e-5f3a-9838-a57b83d90bb9/
+Volkswagen,Golf,1.5,eTSI MHEV R-Line DSG (150 ps),8403,2022,Automatic,Hybrid,24520,www.cazoo.co.uk/car-details/c51c3f48-9b82-51b2-bdeb-dfe6b3d92d8c/
+Volkswagen,Golf,2.0,TSI GTI TCR DSG (290 ps),42405,2019,Automatic,Petrol,24683,www.cazoo.co.uk/car-details/1eae90cd-7def-5a26-a3b2-8dc4ee22b683/
+Volkswagen,Golf,1.4,TSI 13kWh GTE Plug-in DSG (245 ps),18490,2022,Automatic,Hybrid,26569,www.cazoo.co.uk/car-details/37fa82e1-ba08-5fe9-a618-f80f21fc39b9/
+Volkswagen,Golf,2.0,TSI GTI DSG (245 ps),24949,2021,Automatic,Petrol,26995,www.cazoo.co.uk/car-details/3e35629b-9ffb-5592-ae2e-c65d41771cd4/
+Volkswagen,Golf,2.0,TSI R DSG 4Motion (320 ps),2235,2023,Automatic,Petrol,37991,www.cazoo.co.uk/car-details/3a7fae79-1988-55c8-82f1-c2352322484a/
+Volkswagen,Polo,1.0,TSI GPF R-Line DSG (115 ps),102599,2019,Automatic,Petrol,11057,www.cazoo.co.uk/car-details/3dd11493-12a1-5195-b39b-5540f8a0b925/
+Volkswagen,Polo,1.0,TSI SE (95 ps),50963,2018,Manual,Petrol,11064,www.cazoo.co.uk/car-details/9fcdfd27-25ef-5d99-81a5-ac8a4461ce59/
+Volkswagen,Polo,1.2,TSI BlueMotion Tech Match Edition (90 ps),27080,2017,Manual,Petrol,11106,www.cazoo.co.uk/car-details/567bc1d4-e744-5b0f-b535-bd89ddd20149/
+Volkswagen,Polo,1.0,EVO beats (80 ps),50771,2020,Manual,Petrol,12030,www.cazoo.co.uk/car-details/86762f24-76ef-54a2-9620-63e5d08fb117/
+Volkswagen,Polo,1.0,TSI Active DSG (95 ps),36471,2021,Automatic,Petrol,16458,www.cazoo.co.uk/car-details/752214de-4c61-5ce8-8aad-ad3656700a75/
+Volkswagen,Polo,1.0,TSI R-Line DSG (110 ps),22806,2021,Automatic,Petrol,16725,www.cazoo.co.uk/car-details/7e6f344a-fc4c-56e2-91c1-b342a1df438d/
+Volkswagen,Polo,2.0,TSI GPF GTI+ DSG (200 ps),27638,2019,Automatic,Petrol,16833,www.cazoo.co.uk/car-details/65419fbc-0007-5e39-b96c-28b6032beb8a/
+Volkswagen,Polo,2.0,TSI GTI DSG (207 ps),14431,2021,Automatic,Petrol,17809,www.cazoo.co.uk/car-details/13ae1f9d-e192-5800-b8e0-879587ab31a6/
+Volkswagen,Polo,2.0,TSI GTI DSG (207 ps),9588,2021,Automatic,Petrol,18881,www.cazoo.co.uk/car-details/998bda90-f621-523d-aa80-4c8258f1874c/
+Toyota,Corolla,1.8,VVT-h Icon Touring Sports CVT (122 ps),54099,2019,Automatic,Hybrid,14050,www.cazoo.co.uk/car-details/89906a95-b701-5836-bd35-ee6bcbb57021/
+Toyota,Corolla,1.8,VVT-h Icon Touring Sports CVT (122 ps),45709,2019,Automatic,Hybrid,14650,www.cazoo.co.uk/car-details/141afed7-f3b7-5906-beab-9c16b01e5586/
+Toyota,Corolla,1.8,VVT-h GPF Icon Tech CVT (122 ps),38419,2021,Automatic,Hybrid,15666,www.cazoo.co.uk/car-details/2285b33d-195a-585b-9c11-ff3d8a8a9d98/
+Toyota,Corolla,1.8,VVT-h Design CVT (122 ps),26191,2020,Automatic,Hybrid,16517,www.cazoo.co.uk/car-details/499b2158-dfc2-5451-922e-fe327e94cb44/
+Toyota,Corolla,1.8,VVT-h Icon Tech CVT (122 ps),13734,2020,Automatic,Hybrid,16874,www.cazoo.co.uk/car-details/46572f7e-3398-5f1e-a1ba-741bbb774d8b/
+Toyota,Corolla,1.8,VVT-h Excel CVT (122 ps),22522,2020,Automatic,Hybrid,17942,www.cazoo.co.uk/car-details/49d55b61-fcb4-5f4f-83b1-768b1a1a48e6/
+Toyota,Corolla,1.8,VVT-h GPF GR SPORT CVT (122 ps),29691,2021,Automatic,Hybrid,18931,www.cazoo.co.uk/car-details/cce9084e-8cf6-501d-afa5-7b75eb2b9a18/
+Toyota,Corolla,1.8,VVT-h Icon CVT (140 ps),6198,2022,Automatic,Hybrid,19301,www.cazoo.co.uk/car-details/de286558-34e7-58fc-adea-973258cfe86d/
+Toyota,Corolla,1.8,VVT-h GPF Icon Tech Touring Sports CVT (122 ps),17241,2022,Automatic,Hybrid,20400,www.cazoo.co.uk/car-details/4f9d5494-b186-58c4-bb52-ffe7ef341e52/
+Toyota,Corolla,1.8,VVT-h Design Touring Sports CVT (140 ps),13007,2023,Automatic,Hybrid,23196,www.cazoo.co.uk/car-details/a17a1f17-8c22-56e6-9538-f5538cc5f980/
+Toyota,Corolla,1.8,VVT-h GR SPORT CVT (140 ps),5102,2023,Automatic,Hybrid,23559,www.cazoo.co.uk/car-details/dbf9e634-3a4e-575f-b765-b483ac78a6be/
+Toyota,Corolla,1.8,VVT-h GR SPORT Touring Sports CVT (140 ps),19416,2023,Automatic,Hybrid,24130,www.cazoo.co.uk/car-details/37e36889-92fe-5792-adb4-9238595b561d/
+Renault,Clio,0.9,TCe Iconic (90 ps),65889,2019,Manual,Petrol,8003,www.cazoo.co.uk/car-details/dbc6d34b-4f6f-5cf3-aa78-f11ef95e1db2/
+Renault,Clio,1.0,TCe Iconic (100 ps),34396,2020,Manual,Petrol,10462,www.cazoo.co.uk/car-details/5ed29a98-c773-598c-b3fb-76e9bef1e8cb/
+Renault,Clio,1.6,TCe Renaultsport Nav Trophy EDC (220 ps),26619,2016,Automatic,Petrol,13666,www.cazoo.co.uk/car-details/21a69f4a-6455-504d-8922-1c642cb6b402/
+Toyota,Yaris,1.5,VVT-h Design E-CVT (100 ps),38794,2018,Automatic,Hybrid,12550,www.cazoo.co.uk/car-details/fde90655-31cf-5b4d-852f-4bc605df26e9/
+Toyota,Yaris,1.5,VVT-h Design E-CVT (116 ps),7499,2020,Automatic,Hybrid,16900,www.cazoo.co.uk/car-details/a7504d44-67e1-507b-a36c-f017c2490d71/
+Toyota,Yaris,1.5,VVT-h Launch Edition E-CVT (116 ps),22381,2021,Automatic,Hybrid,18029,www.cazoo.co.uk/car-details/2300e1c5-467a-5b90-8c41-9fc3f21eaaed/
+Toyota,Yaris,1.5,VVT-h Excel E-CVT (116 ps),14920,2021,Automatic,Hybrid,18956,www.cazoo.co.uk/car-details/60d5ba3b-fd94-5458-a2fc-3971f7380786/
+Honda,Jazz,1.3,i-VTEC EX Navi (102 ps),43542,2018,Manual,Petrol,11081,www.cazoo.co.uk/car-details/c6862f43-571f-5c45-a704-86ca7f794190/
+Honda,Jazz,1.5,i-VTEC Sport (130 ps),28483,2019,Manual,Petrol,11823,www.cazoo.co.uk/car-details/0af28af5-b8b2-5963-bdec-5aa4e1a0e9ba/
+Honda,Jazz,1.3,i-VTEC EX Navi (102 ps),24350,2020,Manual,Petrol,13596,www.cazoo.co.uk/car-details/55151fbd-893b-564a-a892-dedcbf114fd9/
+Honda,Jazz,1.5,h i-MMD SE eCVT (107 ps),30547,2021,Automatic,Hybrid,14349,www.cazoo.co.uk/car-details/1a21fdc7-d26d-51c6-8de8-b60ae0abd6c1/
+Honda,Jazz,1.5,h i-MMD SE eCVT (107 ps),18777,2021,Automatic,Hybrid,15607,www.cazoo.co.uk/car-details/b31d33b9-fa77-5d76-ae39-9c59ae887188/
+Ford,Fiesta,1.5,TDCi Zetec (75 ps),35043,2016,Manual,Diesel,8109,www.cazoo.co.uk/car-details/dc10a496-2120-5591-a1d0-ac7bfe432914/
+Ford,Fiesta,1.0T,EcoBoost GPF Zetec (100 ps),40612,2019,Manual,Petrol,9750,www.cazoo.co.uk/car-details/cd3d8450-3f16-5926-8ca4-b895fd96d9d9/
+Ford,Fiesta,1.0T,EcoBoost GPF ST-Line (100 ps),41250,2019,Manual,Petrol,10342,www.cazoo.co.uk/car-details/61438da6-94ad-56cd-8020-1eff9d3b645c/
+Ford,Fiesta,1.0T,EcoBoost ST-Line (100 ps),30240,2018,Manual,Petrol,10822,www.cazoo.co.uk/car-details/38f440fd-120e-5bfa-aa2f-40ff0c5f3494/
+Ford,Fiesta,1.0T,EcoBoost GPF ST-Line (125 ps),26944,2018,Manual,Petrol,11277,www.cazoo.co.uk/car-details/609fc79a-d8a1-5dc0-abd8-6d628ff580ff/
+Ford,Fiesta,1.0T,EcoBoost Titanium Powershift (100 ps),22180,2017,Automatic,Petrol,11576,www.cazoo.co.uk/car-details/7a33d428-f471-59ec-b282-2721b75b4aa7/
+Ford,Fiesta,1.0T,EcoBoost GPF Titanium (100 ps),16696,2019,Manual,Petrol,12120,www.cazoo.co.uk/car-details/ed577fa8-a2f1-564b-ac04-70deca1c8fd1/
+Ford,Fiesta,1.5T,EcoBoost ST-3 (200 ps),42207,2019,Manual,Petrol,14462,www.cazoo.co.uk/car-details/a1c56437-cb7e-50f5-a3e7-085ab703797e/
+Ford,Fiesta,1.0T,EcoBoost ST-Line (100 ps),11186,2022,Manual,Petrol,15022,www.cazoo.co.uk/car-details/c942fddc-c58c-5c27-b7cc-e22d31613b83/
+Ford,Fiesta,1.0T,EcoBoost MHEV ST-Line X Edition (125 ps),3071,2020,Manual,Petrol,15718,www.cazoo.co.uk/car-details/b3d6e2ea-678a-50aa-9eaf-bbeb9afa7b27/
+Ford,Fiesta,1.0T,EcoBoost ST-Line (100 ps),7101,2022,Manual,Petrol,16849,www.cazoo.co.uk/car-details/19b56e20-cf38-53f2-8ffd-c26c4c58dc4a/
+Ford,Fiesta,1.0T,EcoBoost MHEV ST-Line DCT (125 ps),2453,2022,Automatic,Hybrid,18006,www.cazoo.co.uk/car-details/dc31fbec-f5ae-5644-a8c5-581013536728/
+Ford,Fiesta,1.5T,EcoBoost ST-3 (200 ps),8560,2022,Manual,Petrol,19995,www.cazoo.co.uk/car-details/f2427397-99bf-5b82-99b2-378dfcc5755c/
+Kia,Picanto,1.0,DPi 3 (66 bhp),13416,2022,Manual,Petrol,12244,www.cazoo.co.uk/car-details/6ff950ff-baa3-5f45-8b95-4e6ef30d8aa8/
+Kia,Picanto,1.25,3 (83 bhp),10474,2018,Automatic,Petrol,12836,www.cazoo.co.uk/car-details/017cee86-6a84-5a79-9432-25d763ab2623/
+Hyundai,i10,1.0,S (67 ps),23431,2019,Manual,Petrol,7637,www.cazoo.co.uk/car-details/bf4e11d5-5061-5508-bb29-f70fc4bd4dc5/
+Hyundai,i10,1.0,SE (67 ps),18793,2018,Manual,Petrol,8028,www.cazoo.co.uk/car-details/8ad6238d-3f83-5cb9-8a93-d0ffdece944c/
+Seat,Ibiza,1.0,TSI XCELLENCE (110 ps),28216,2021,Manual,Petrol,13555,www.cazoo.co.uk/car-details/b5759a23-9958-55cd-b091-58b02098b703/
+Audi,A1,1.4,TFSI Sport Sportback (125 ps),41248,2017,Manual,Petrol,10975,www.cazoo.co.uk/car-details/384802dd-c76f-5263-b72d-1921048836af/
+Audi,A1,1.6,TDI S line Sportback (116 ps),41440,2016,Manual,Diesel,11074,www.cazoo.co.uk/car-details/2e14b8fa-0a66-51d4-a83e-5c37d83cb597/
+Audi,A1,1.0,TFSI Sport Sportback (Nav) (95 ps),34590,2018,Manual,Petrol,12598,www.cazoo.co.uk/car-details/ae78a0cc-32e6-52cb-8f8c-5f4be838279b/
+Audi,A1,1.4,TFSI CoD Black Edition Sportback S Tronic (150 ps),49954,2016,Automatic,Petrol,12976,www.cazoo.co.uk/car-details/abdd9dfc-c7c6-5ee4-9521-081eab7f1061/
+Audi,A1,1.0,TFSI 30 Sport Sportback S Tronic (110 ps),25472,2021,Automatic,Petrol,17951,www.cazoo.co.uk/car-details/f69c1302-9780-5c78-b4ac-5acf89e4bb86/
+Audi,A1,1.0,TFSI 25 Sport Sportback S Tronic (95 ps),21721,2021,Automatic,Petrol,18103,www.cazoo.co.uk/car-details/e2dbe68c-9b9c-591c-ae1a-d1dc6da2b640/
+Audi,A1,2.0,TFSI 40 S line Competition Sportback S Tronic (200 ps),15078,2019,Automatic,Petrol,20070,www.cazoo.co.uk/car-details/7333baf8-88f6-5286-be5f-23bd2133cf0b/
