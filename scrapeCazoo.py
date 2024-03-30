@@ -87,7 +87,7 @@ def main():
         ]
 
     number_of_cars = 0
-    with open("cars.csv", 'w') as fout:
+    with open("carsCazoo.csv", 'w') as fout:
         fout.write("make,model,engine,trim,mileage,year,transmission,fuel,price,url\n")
 
         for url in urls:
