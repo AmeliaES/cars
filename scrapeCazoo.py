@@ -1,4 +1,4 @@
-# This is a sample Python script.
+# Script to scrape cazoo website
 import requests
 from bs4 import BeautifulSoup
 
