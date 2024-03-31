@@ -186,7 +186,7 @@ def output_data_to_csv(data, criteria):
 
     df = df.sort_values(by="price", ascending=True)
 
-    df.to_csv('carsAT.csv')
+    df.to_csv('carsAT.csv', index = False)
 
     print("Output saved to current directory as 'carsAT.csv'.")
 
