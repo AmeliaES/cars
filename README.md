@@ -17,4 +17,9 @@ https://storage.googleapis.com/chrome-for-testing-public/123.0.6312.86/mac-x64/c
 * Instructions on how to install ChromeDriver here:
 https://www.swtestacademy.com/install-chrome-driver-on-mac/
 
-
+### Data cleaning:
+Began data cleaning steps in [`exploreCarsAT.py](exploreCars.py). 
+* Check for duplicates
+  * Some cars are duplicated. Number of rows in carsAT.csv does not match the number of cars on the search on autotrader. My guess is some of the cars are duplciated if there are adverts. Duplicated cars are saved to duplicated.csv
+* Check for missing data
+  * Noticed some missing data for year and mileage. More common when the car is new. But also for cars with a lot of mileage the year is missing. Need to debug this.
