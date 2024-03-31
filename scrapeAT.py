@@ -23,30 +23,18 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 
 criteria = {
-    "postcode": "LS1 2AD",
-    "radius": "20",
-    "year_from": "2010",
-    "year_to": "2014",
-    "price_from": "3000",
-    "price_to": "6500",
+    "postcode": "E1 6AN"
+    # "radius": "20",
+    # "year_from": "2010",
+    # "year_to": "2014",
+    # "price_from": "3000",
+    # "price_to": "6500",
 }
 
 cars = [
     {
-        "make": "Toyota",
-        "model": "Yaris"
-    },
-    {
-        "make": "Honda",
-        "model": "Jazz"
-    },
-    {
-        "make": "Suzuki",
-        "model": "Swift"
-    },
-    {
-        "make": "Mazda",
-        "model": "Mazda2"
+        "make": "Citroen",
+        "model": "Berlingo"
     }
 ]
 
@@ -59,21 +47,17 @@ def scrape_autotrader(cars, criteria):
 
     for car in cars:
 
-        # Example URL:
-        # https://www.autotrader.co.uk/car-search?advertising-location=at_cars&include-delivery-option=on&make=Honda&model=Jazz&postcode=LS12AD&radius=10&sort=relevance&year-from=2011&year-to=2015
-
         url = "https://www.autotrader.co.uk/car-search?" + \
-              "advertising-location=at_cars&" + \
               "include-delivery-option=on&" + \
               f"make={car['make']}&" + \
               f"model={car['model']}&" + \
-              f"postcode={criteria['postcode']}&" + \
-              f"radius={criteria['radius']}&" + \
-              "sort=relevance&" + \
-              f"year-from={criteria['year_from']}&" + \
-              f"year-to={criteria['year_to']}&" + \
-              f"price-from={criteria['price_from']}&" + \
-              f"price-to={criteria['price_to']}"
+              f"postcode={criteria['postcode']}&"
+              # f"radius={criteria['radius']}&" + \
+              # "sort=relevance&" + \
+              # f"year-from={criteria['year_from']}&" + \
+              # f"year-to={criteria['year_to']}&" + \
+              # f"price-from={criteria['price_from']}&" + \
+              # f"price-to={criteria['price_to']}"
 
         driver.get(url)
 
@@ -85,7 +69,7 @@ def scrape_autotrader(cars, criteria):
         content = BeautifulSoup(source, "html.parser")
 
         try:
-            number_of_pages = content.find("p", text=re.compile(r'Page \d{1,2} of \d{1,2}')).text[-1]
+            number_of_pages = int(content.find("p", text=re.compile(r'Page \d{1,2} of \d{1,2}')).text.split()[-1])
         except:
             print("No results found.")
             continue
