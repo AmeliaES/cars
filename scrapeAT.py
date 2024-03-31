@@ -158,7 +158,7 @@ def scrape_autotrader(cars, criteria):
     return data
 
 
-def output_data_to_excel(data, criteria):
+def output_data_to_csv(data, criteria):
     df = pd.DataFrame(data)
 
     df["price"] = df["price"].str.replace("£", "").str.replace(",", "")
@@ -202,45 +202,11 @@ def output_data_to_excel(data, criteria):
 
     df = df.sort_values(by="distance", ascending=True)
 
-    writer = pd.ExcelWriter("cars.xlsx", engine="xlsxwriter")
-    df.to_excel(writer, sheet_name="Cars", index=False)
-    workbook = writer.book
-    worksheet = writer.sheets["Cars"]
+    df.to_csv('carsAT.csv')
 
-    worksheet.conditional_format("C2:C1000", {
-        'type': '3_color_scale',
-        'min_color': '#63be7b',
-        'mid_color': '#ffdc81',
-        'max_color': '#f96a6c'
-    })
-
-    worksheet.conditional_format("D2:D1000", {
-        'type': '3_color_scale',
-        'min_color': '#f96a6c',
-        'mid_color': '#ffdc81',
-        'max_color': '#63be7b'
-    })
-
-    worksheet.conditional_format("E2:E1000", {
-        'type': '3_color_scale',
-        'min_color': '#63be7b',
-        'mid_color': '#ffdc81',
-        'max_color': '#f96a6c'
-    })
-
-    worksheet.conditional_format("F2:F1000", {
-        'type': '3_color_scale',
-        'min_color': '#63be7b',
-        'mid_color': '#ffdc81',
-        'max_color': '#f96a6c'
-    })
-
-    writer.save()
-    print("Output saved to current directory as 'cars.xlsx'.")
+    print("Output saved to current directory as 'carsAT.csv'.")
 
 
 if __name__ == "__main__":
     data = scrape_autotrader(cars, criteria)
-    output_data_to_excel(data, criteria)
-
-    os.system("start EXCEL.EXE cars.xlsx")
+    output_data_to_csv(data, criteria)
