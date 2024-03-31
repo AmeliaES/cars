@@ -182,9 +182,9 @@ def output_data_to_csv(data, criteria):
         "fuel",
     ]]
 
-    df = df[df["price"] < int(criteria["price_to"])]
+    # df = df[df["price"] < int(criteria["price_to"])]
 
-    df = df.sort_values(by="distance", ascending=True)
+    df = df.sort_values(by="price", ascending=True)
 
     df.to_csv('carsAT.csv')
 
