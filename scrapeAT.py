@@ -154,7 +154,7 @@ def output_data_to_csv(data, criteria):
     df["price"] = df["price"].str.replace("£", "").str.replace(",", "")
     df["price"] = pd.to_numeric(df["price"], errors="coerce").astype("Int64")
 
-    df["year"] = df["year"].str.replace(r"\s(\(\d\d reg\))", "", regex=True)
+    df["year"] = df["year"].str.replace(r"\s(\([a-zA-Z0-9]* reg\))", "", regex=True)
     df["year"] = pd.to_numeric(df["year"], errors="coerce").astype("Int64")
 
     df["mileage"] = df["mileage"].str.replace(",", "").str.replace(" miles", "")

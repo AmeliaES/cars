@@ -18,8 +18,8 @@ https://storage.googleapis.com/chrome-for-testing-public/123.0.6312.86/mac-x64/c
 https://www.swtestacademy.com/install-chrome-driver-on-mac/
 
 ### Data cleaning:
-Began data cleaning steps in [`exploreCarsAT.py](exploreCars.py). 
-* Check for duplicates
-  * Some cars are duplicated. Number of rows in carsAT.csv does not match the number of cars on the search on autotrader. My guess is some of the cars are duplciated if there are adverts. Duplicated cars are saved to duplicated.csv
-* Check for missing data
-  * Noticed some missing data for year and mileage. More common when the car is new. But also for cars with a lot of mileage the year is missing. Need to debug this.
+[`scrapeAT.py`](scrapeAT.py)
+* Removes duplicates (excluding the URL/link column). Some cars are duplicated because there are also adverts for the same car.
+* Fixed bug of missing data for the year by changing regular expression for removing "reg" from the "year" field.
+
+* [`exploreCarsAT.py](exploreCars.py). 
