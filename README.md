@@ -2,6 +2,14 @@
 
 This project came about as my mum wanted to find a Citroen Berlingo to enjoy the festivals with this summer. My partner and I had recently written some [scripts](https://github.com/pmacg/cazooScraper) to scrape the Cazoo website in Python and I wrote a script to plot the cars in R using ggplot. More cars are on autotrader but this is a bit trickier to scrape as the autotrader website doesn't let you scrape it directly using a module in Python called "beautifulsoup", as it [thinks you are a bot](https://github.com/AmeliaES/cars/tree/f13d63fff0366a4ab55f93fc0c9050877eb5d4c3)! I found autotrader also has an [API](https://www.autotrader.co.uk/partners/retailer/auto-trader-connect) which would be more stable than scraping. But I doubt this is free to use! I then came across a great script and set of clear instructions here: https://www.shedloadofcode.com/blog/how-to-scrape-autotrader-with-python-and-selenium-to-search-for-multiple-makes-and-models
 
+### Things I learnt from this project:
+* web scraping using python, beautiful soup, selenium
+* the debugging tool in PyCharm, conditional break points
+* how to get other people's code to work
+* how unstable webscraping can be
+* how to use the dev tools on the chrome browser, especially to hover over elements. This helped when fixing the bug where the code was excluding private sellers and I could compare the html for private sellers and dealerships.
+* explaining results to the client in non-jargon language
+
 ### TL;DR
 [`scrapeAT.py`](scrapeAT.py) scrapes the autotrader website for Citroen Berlingos and writes to [`carsAT.csv`](carsAT.csv). Code is tweaked from https://github.com/shedloadofcode/autotrader-selenium-scraper/blob/main/autotrader-scraper.py
 
