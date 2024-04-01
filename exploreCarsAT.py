@@ -1,5 +1,6 @@
 import pandas as pd
 import plotly.express as px
+import plotly.io as pio
 
 def main():
     df = pd.read_csv('carsAT.csv')
@@ -22,13 +23,11 @@ def main():
     fig.update_traces(marker=dict(color=df["price"], colorscale='Viridis_r'))
 
     # Save as PNG
-    # fig.write_image("carsAT.png")
+    pio.write_image(fig, "carsAT.png", width=800, height=600)
 
     # Save as HTML
     fig.write_html("carsAT.html")
 
-    # Show the plot
-    fig.show()
 
 if __name__ == "__main__":
     main()
