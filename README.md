@@ -6,6 +6,8 @@ This project came about as my mum wanted to find a Citroen Berlingo to enjoy the
 [`scrapeAT.py`](scrapeAT.py) scrapes the autotrader website for Citroen Berlingos and writes to [`carsAT.csv`](carsAT.csv). Code is tweaked from https://github.com/shedloadofcode/autotrader-selenium-scraper/blob/main/autotrader-scraper.py
 
 
+![carsAT.png](carsAT.png?raw=true)
+
 ### Prerequisites
 * Install ChromeDriver to match version of chrome: https://googlechromelabs.github.io/chrome-for-testing/#stable
 
