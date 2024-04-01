@@ -47,8 +47,7 @@ def scrape_autotrader(cars, criteria):
 
     for car in cars:
 
-        url = "https://www.autotrader.co.uk/car-search?" + \
-              "include-delivery-option=on&" + \
+        url = "https://www.autotrader.co.uk/motorhome-search?" + \
               f"make={car['make']}&" + \
               f"model={car['model']}&" + \
               f"postcode={criteria['postcode']}&"
@@ -83,7 +82,14 @@ def scrape_autotrader(cars, criteria):
             page_source = driver.page_source
             content = BeautifulSoup(page_source, "html.parser")
 
-            articles = content.findAll("section", attrs={"data-testid": "trader-seller-listing"})
+            articles = []
+
+            # Assuming content is your BeautifulSoup object
+            private_seller_listings = content.findAll("section", attrs={"data-testid": "private-seller-listing"})
+            trader_seller_listings = content.findAll("section", attrs={"data-testid": "trader-seller-listing"})
+
+            articles.extend(private_seller_listings)
+            articles.extend(trader_seller_listings)
 
             print(f"Scraping page {str(i + 1)}...")
 
@@ -99,7 +105,7 @@ def scrape_autotrader(cars, criteria):
                     "owners": None,
                     "location": None,
                     "distance": None,
-                    "link": article.find("a", {"href": re.compile(r'/car-details/')}).get("href")
+                    "link": article.find("a", {"href": re.compile(r'/motorhome-details/')}).get("href")
                 }
 
                 try:
@@ -111,8 +117,8 @@ def scrape_autotrader(cars, criteria):
                     print("Seller information not found.")
 
                 specs_list = article.find("ul", attrs={"data-testid": "search-listing-specs"})
-                for spec in specs_list:
-                    if "reg" in spec.text:
+                for i, spec in enumerate(specs_list):
+                    if i == 0:
                         details["year"] = spec.text
 
                     if "miles" in spec.text:
@@ -128,7 +134,7 @@ def scrape_autotrader(cars, criteria):
                         details["fuel"] = spec.text
 
                     if "owner" in spec.text:
-                        details["owners"] = spec.text[0]
+                        details["owners"] = spec.text.split()[0]
 
                 data.append(details)
 
@@ -186,7 +192,12 @@ def output_data_to_csv(data, criteria):
 
     df = df.sort_values(by="price", ascending=True)
 
+    # Drop dupliacted cars which show more than once if there's an advert
+    df = df.drop_duplicates(subset=df.columns.difference(['link']))
+
     df.to_csv('carsAT.csv', index = False)
+
+    print(f"{len(df)} cars total saved.")
 
     print("Output saved to current directory as 'carsAT.csv'.")
 
