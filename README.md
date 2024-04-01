@@ -5,8 +5,10 @@ This project came about as my mum wanted to find a Citroen Berlingo to enjoy the
 ### TL;DR
 [`scrapeAT.py`](scrapeAT.py) scrapes the autotrader website for Citroen Berlingos and writes to [`carsAT.csv`](carsAT.csv). Code is tweaked from https://github.com/shedloadofcode/autotrader-selenium-scraper/blob/main/autotrader-scraper.py
 
-
+## Interpreting plot for the client (ie. my mum)
 ![carsAT.png](carsAT.png?raw=true)
+
+**Each point is a car. The darker the colour the cheaper the car. Cars/points in the bottom right quadrant that are a dark colour (ie. cheaper) are probably worth looking at on autotrader. To find the URLs for these cars download the [carsAT.csv](carsAT.csv) and find the car from the year, mileage and price from the plot.**
 
 ### Prerequisites
 * Install ChromeDriver to match version of chrome: https://googlechromelabs.github.io/chrome-for-testing/#stable
@@ -20,8 +22,10 @@ https://storage.googleapis.com/chrome-for-testing-public/123.0.6312.86/mac-x64/c
 https://www.swtestacademy.com/install-chrome-driver-on-mac/
 
 ### Data cleaning:
-[`scrapeAT.py`](scrapeAT.py)
+*Also written in: [`scrapeAT.py`](scrapeAT.py)*
 * Removes duplicates (excluding the URL/link column). Some cars are duplicated because there are also adverts for the same car.
 * Fixed bug of missing data for the year by changing regular expression for removing "reg" from the "year" field.
 
-* [`exploreCarsAT.py](exploreCars.py). 
+### Data plotting:
+[`exploreCarsAT.py](exploreCars.py) creates the scatter plot above.
+  
